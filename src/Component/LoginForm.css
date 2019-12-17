@@ -20,24 +20,64 @@ form{
 }
 input{
     margin-top: 2vh;
-    width: 30vw;
+    width: 27vw;
     height: 6vh;
     border: 0.05vw #707070 solid;
-    border-radius: 0.5vw;
+    border-radius: 0.2vw;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+}
+::placeholder {
+    font-size: 1.2vw;
+}
+.passwordField{
+    margin-top: 4vh;
 }
 button{
     font-family: sans-serif;
     font-size: 1.5vw;
-    margin-top: 2vh;
-    width: 30vw;
-    height: 7vh;
+    margin-top: 4vh;
+    width: 29vw;
+    height: 6.5vh;
     color: white;
     background-color: #8572E0;
     border: 0.05vw #707070 solid;
-    border-radius: 0.5vw;
+    border-radius: 0.2vw;
 }
 h2{
     font-family: 'Kristen ITC';
     font-size: 2vw;
     margin-bottom: 5vh;
+}
+.Forgot{
+    color: #3B2894;
+    font-size: 1.2vw;
+    margin-top: 3vh;
+    padding-bottom: 4.5vh;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    margin-left: 4vw;
+    margin-right: 8vw;
+    margin-top: 3vh;
+}
+.register>p{
+    margin: 0;
+    font-size: 1.2vw;
+}
+.googleLogin{
+    color: #3B2894;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.register>img{
+    width: 4vw;
+    height: 6vh;
+    border-radius: 50%;
+}
+.signUp{
+    padding-left: 1vw;
+    color: #5D00FF;
+    text-decoration: underline;
 }
