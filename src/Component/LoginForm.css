@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'Kristen ITC';
+    font-style: normal;
+    src: '../font/ITCKRIST.ttf'
+}
+.LoginForm{
+    width: 50%;
+}
+form{
+    padding-top: 3vh;
+    text-align: center;
+    margin-top: 12vh;
+    margin-left: 4vw;
+    margin-right: 8vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.05vw #707070 solid;
+}
+input{
+    margin-top: 2vh;
+    width: 30vw;
+    height: 6vh;
+    border: 0.05vw #707070 solid;
+    border-radius: 0.5vw;
+}
+button{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-top: 2vh;
+    width: 30vw;
+    height: 7vh;
+    color: white;
+    background-color: #8572E0;
+    border: 0.05vw #707070 solid;
+    border-radius: 0.5vw;
+}
+h2{
+    font-family: 'Kristen ITC';
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
