@@ -1,0 +1,44 @@
+.Header{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+.Header>input{
+    background-color: #F2F2F2;
+    margin: 0;
+    width: 25vw;
+    height: 4.5vh;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    margin: auto;
+}
+.navigation>img{
+    margin: 0;
+    width: 2vw;
+    height: 4vh;
+    margin: auto;
+    margin-left: 1vw;
+}
+.navigation>button{
+    width: 7vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    border: 0.3vw black solid;
+    border-radius: 0.3vw;
+    font-size: 1.2vw;
+    margin: auto;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+.Olrato{
+    margin: 0;
+    font-family: 'High Tower Text';
+    font-size: 3.5vw;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    padding-left: 4vw;
+}

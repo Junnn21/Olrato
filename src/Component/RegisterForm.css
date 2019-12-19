@@ -1,0 +1,31 @@
+.registerForm{
+    width: 50%;
+}
+.registerBtn{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    width: 29vw;
+    height: 6.5vh;
+    color: white;
+    background-color: #8572E0;
+    border: 0.05vw #707070 solid;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 8vw;
+}
+p{
+    font-size: 1.2vw;
+    margin: 0;
+}
+.loginLink{
+    margin-left: 1vw;
+    font-size: 1.1vw;
+}

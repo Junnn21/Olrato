@@ -33,7 +33,7 @@ input{
 .passwordField{
     margin-top: 4vh;
 }
-button{
+.loginBtn{
     font-family: sans-serif;
     font-size: 1.5vw;
     margin-top: 4vh;
@@ -43,6 +43,7 @@ button{
     background-color: #8572E0;
     border: 0.05vw #707070 solid;
     border-radius: 0.2vw;
+    cursor: pointer;
 }
 h2{
     font-family: 'Kristen ITC';
@@ -78,6 +79,7 @@ h2{
 }
 .signUp{
     padding-left: 1vw;
+    font-size: 1.1vw;
     color: #5D00FF;
     text-decoration: underline;
 }

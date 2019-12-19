@@ -1,16 +1,26 @@
 import React from 'react';
 import './LoginForm.css'
 import google from '../image/google.jpg'
+import { 
+    withRouter,
+    Link
+ } from 'react-router-dom'
 
-export default class LoginForm extends React.Component{
+class LoginForm extends React.Component{
+
+    submitForm(e){
+        e.preventDefault();
+        this.props.history.push('/Home');
+    }
+
     render(){
         return(
             <div className = "LoginForm">
-                <form>
+                <form onSubmit={this.submitForm.bind(this)}>
                     <h2>Log in to your account</h2>
                     <input placeholder="Username"></input>
                     <input className = "passwordField" placeholder="Password" type="password"></input>
-                    <button type="submit">Log In</button>
+                    <button className="loginBtn" type="submit">Log In</button>
                     <span className="Forgot">Forgot Password?</span>
                 </form>
                 <div className="register">
@@ -19,9 +29,11 @@ export default class LoginForm extends React.Component{
                 </div>
                 <div className="register">
                     <p>Don't have an account?</p>
-                    <p className="signUp">Sign Up Here</p>
+                    <Link to="/Register" className="signUp">Sign Up Here</Link>
                 </div>
             </div>
         )
     }
 }
+
+export default withRouter(LoginForm);
