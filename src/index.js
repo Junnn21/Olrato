@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 import Register from './Register'
 import Home from './Home'
+import AddPost from './AddPost'
 
 const Routing = (
     <Router>
@@ -22,6 +23,9 @@ const Routing = (
             </Route>
             <Route path ="/Home">
                 <Home />
+            </Route>
+            <Route path ="/AddPost">
+                <AddPost />
             </Route>
         </Switch>
     </Router>

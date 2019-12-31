@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from './Component/Header'
-import { Link } from 'react-router-dom';
+import HomeContent from './Component/HomeContent';
 
 function Home(){
     return(
         <div>
-            <Header />
+            <Header>
+            </Header>
+            <HomeContent />
         </div>
     )
 }

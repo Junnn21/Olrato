@@ -18,7 +18,7 @@ form{
     align-items: center;
     border: 0.05vw #707070 solid;
 }
-input{
+form>input{
     margin-top: 2vh;
     width: 27vw;
     height: 6vh;
@@ -40,7 +40,7 @@ input{
     width: 29vw;
     height: 6.5vh;
     color: white;
-    background-color: #8572E0;
+    background-color: black;
     border: 0.05vw #707070 solid;
     border-radius: 0.2vw;
     cursor: pointer;

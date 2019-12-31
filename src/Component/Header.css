@@ -1,15 +1,23 @@
-.Header{
+.Headerr{
     display: flex;
     background-color: white;
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
-.Header>input{
+.Header{
+    display: flex;
+    flex-direction: column;
+}
+.Headerr>input{
     background-color: #F2F2F2;
     margin: 0;
     width: 25vw;
     height: 4.5vh;
     margin: auto;
+    padding-left: 2vw;
+    font-size: 1.5vw;
+    border: 0.05vw #707070 solid;
+    border-radius: 0.2vw;
 }
 .navigation{
     display: flex;
@@ -21,6 +29,17 @@
     height: 4vh;
     margin: auto;
     margin-left: 1vw;
+}
+.plus>img{
+    margin: 0;
+    width: 2vw;
+    height: 4vh;
+    margin: auto;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.plus{
+    cursor: pointer;
 }
 .navigation>button{
     width: 7vw;
@@ -34,6 +53,9 @@
     margin-left: 2vw;
     cursor: pointer;
 }
+.HeaderTitle{
+    cursor: pointer;
+}
 .Olrato{
     margin: 0;
     font-family: 'High Tower Text';
@@ -41,4 +63,7 @@
     padding-top: 1.3vh;
     padding-bottom: 1.3vh;
     padding-left: 4vw;
+}
+.sticky{
+    position: fixed;
 }

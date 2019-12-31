@@ -1,0 +1,49 @@
+.addForm{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+}
+.formItem{
+    display: flex;
+    margin-top: 1.5vh;
+}
+.formItem > p{
+    position: absolute;
+    font-size: 1.4vw;
+    left: 17vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.formItem > input{
+    margin-left: 5vw;
+    width: 40vw;
+    height: 4.5vh;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+}
+.formItem > select{
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    padding-left: 1vw;
+    height: 4.5vh;
+    width: 40vw;
+    font-size: 1.2vw;
+}
+.formItem > textarea{
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    width: 40vw;
+}
+.formItem>button{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 0.2vw;
+    font-size: 1.5vw;
+    width: 20vw;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
