@@ -29,3 +29,36 @@
     margin-left: 1vw;
     font-size: 1.1vw;
 }
+
+@media only screen and (max-width: 1024px){
+    .registerForm{
+        width: 100%;
+    }
+    form > input{
+        margin-top: 2vh;
+    }
+    form > h2{
+        margin-bottom: 3vh;
+    }
+    .registerBtn{
+        font-family: sans-serif;
+        font-size: 3vw;
+        margin-top: 4vh;
+        margin-bottom: 5vh;
+        width: 40%;
+        height: 6vh;
+        color: white;
+        background-color: black;
+        border: 0.05vw #707070 solid;
+        border-radius: 0.2vw;
+        cursor: pointer;
+    }
+    .Login > p{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    .loginLink{
+        margin-left: 1vw;
+        font-size: 2.4vw;
+    }
+}

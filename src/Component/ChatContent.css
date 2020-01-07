@@ -1,0 +1,105 @@
+.chatContent{
+    margin-top: 15vh;
+    margin-right: 5vw;
+    width: 70vw;
+    height: 80vh;
+    background-color: black;
+    border: 1px #707070 solid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.chatContent1{
+    display: flex;
+}
+.chatContent2{
+    display: flex;
+    margin-left: auto;
+    margin-right: 1vw;
+}
+.chatContent1 > img{
+    border-radius: 50%;
+    width: 4.5vw;
+    height: 9vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.chatContent2 > img{
+    border-radius: 50%;
+    width: 4.5vw;
+    height: 9vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.chatText{
+    margin-left: 1.5vw;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+    height: auto;
+    background-color: lightyellow;
+}
+.chatText2{
+    margin-right: 1.5vw;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    margin-top: 2.5vh;
+    margin-bottom: 2vh;
+    height: auto;
+    background-color: #707070;
+}
+.chatText > p{
+    margin: 0;
+}
+.chatText2 > p{
+    margin: 0;
+}
+.chatText:after{
+    content: '';
+    border: 20px solid transparent;
+    border-color: lightyellow transparent transparent transparent;
+    border-bottom: 0;
+    position: absolute;
+    left: -20px;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+}
+.chatText2:after{
+    content: '';
+    border: 20px solid transparent;
+    border-color: #707070 transparent transparent transparent;
+    border-bottom: 0;
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    left: auto;
+    bottom: auto;
+}
+.inputMessage{
+    display: flex;
+    position: absolute;
+    bottom: 2vh;
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+.inputImage > img{
+    background-color: white;
+    width: 4vw;
+    height: 5.5vh;
+    margin: 0;
+    margin-left: 0.5vw;
+    margin-top: 0.2vh;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.inputMessage > input{
+    height: 5vh;
+    width: 62vw;
+    margin: 0;
+    font-size: 1.2vw;
+    padding-left: 1vw;
+}

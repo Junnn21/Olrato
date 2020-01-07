@@ -20,6 +20,14 @@ class Header extends React.Component {
         e.preventDefault();
         this.props.history.push('/AddPost');
     }
+    chat(e){
+        e.preventDefault();
+        this.props.history.push('/Chat')
+    }
+    profile(e){
+        e.preventDefault();
+        this.props.history.push('./Profile')
+    }
 
 render(){
     return (
@@ -33,8 +41,12 @@ render(){
                     <div className="plus" onClick={this.add.bind(this)}>
                         <img src={plusIcon} alt="" />
                     </div>
-                    <img src={chatIcon} alt="" />
-                    <img src={profileIcon} alt="" />
+                    <div className="chat" onClick={this.chat.bind(this)}>
+                        <img src={chatIcon} alt="" />
+                    </div>
+                    <div className="profile" onClick={this.profile.bind(this)}>
+                        <img src={profileIcon} alt="" />
+                    </div>
                     <button onClick={this.logout.bind(this)}>Log Out</button>
                 </div>
             </div>

@@ -1,0 +1,26 @@
+.JoinedEvent{
+    position: fixed;
+    right: 5vw;
+    background-color: white;
+    border: 1px #707070 solid;
+    width: 35vw;
+    margin-top: 5vh;
+    font-size: 1.2vw;
+    height: 70vh;
+}
+.event{
+    border-top: solid 1px #707070;
+}
+.event:last-child{
+    border-bottom: solid 1px #707070;
+}
+.event{
+    cursor: pointer;
+}
+.titleEvent > p{
+    margin-left: 1vw;
+
+}
+.event > p{
+    margin-left: 1vw;
+}

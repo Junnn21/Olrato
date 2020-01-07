@@ -23,14 +23,7 @@
     display: flex;
     margin: auto;
 }
-.navigation>img{
-    margin: 0;
-    width: 2vw;
-    height: 4vh;
-    margin: auto;
-    margin-left: 1vw;
-}
-.plus>img{
+.plus > img, .chat > img, .profile > img{
     margin: 0;
     width: 2vw;
     height: 4vh;
@@ -38,7 +31,7 @@
     margin-top: 1vh;
     margin-left: 1vw;
 }
-.plus{
+.plus, .chat, .profile{
     cursor: pointer;
 }
 .navigation>button{
@@ -64,6 +57,36 @@
     padding-bottom: 1.3vh;
     padding-left: 4vw;
 }
-.sticky{
-    position: fixed;
+
+@media only screen and (max-width: 1024px){
+    .Headerr>input{
+        background-color: #F2F2F2;
+        width: 25vw;
+        height: 3vh;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        padding-left: 2vw;
+        font-size: 2vw;
+        border: 0.05vw #707070 solid;
+        border-radius: 0.2vw;
+    }
+    .plus > img, .chat > img, .profile > img{
+        width: 3vw;
+        height: 3vh;
+        margin-top: 1.5vh;
+        margin-bottom: 1vh;
+        margin-left: 1vw;
+    }
+    .navigation>button{
+        width: 9vw;
+        height: 3.5vh;
+        background-color: black;
+        color: white;
+        border: 0.3vw black solid;
+        border-radius: 0.3vw;
+        font-size: 1.2vw;
+        margin: auto;
+        margin-left: 2vw;
+        cursor: pointer;
+    }
 }

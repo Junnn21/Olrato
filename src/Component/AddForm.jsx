@@ -23,7 +23,7 @@ export default class AddForm extends Component{
                     </div>
                     <div className="formItem">
                         <p>Description:</p>
-                        <textarea cols="83" rows="10"></textarea>
+                        <textarea cols="83" rows="7"></textarea>
                     </div>
                     <div className="formItem">
                         <p>Image:</p>

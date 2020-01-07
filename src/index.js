@@ -11,6 +11,8 @@ import {
 import Register from './Register'
 import Home from './Home'
 import AddPost from './AddPost'
+import Chat from './Chat';
+import Profile from './Profile'
 
 const Routing = (
     <Router>
@@ -26,6 +28,12 @@ const Routing = (
             </Route>
             <Route path ="/AddPost">
                 <AddPost />
+            </Route>
+            <Route path = "/Chat">
+                <Chat />
+            </Route>
+            <Route path = "/Profile">
+                <Profile />
             </Route>
         </Switch>
     </Router>

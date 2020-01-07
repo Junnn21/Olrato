@@ -27,13 +27,15 @@
     margin-top: 1.5vh;
     padding-left: 1vw;
     height: 4.5vh;
-    width: 40vw;
+    width: 41vw;
     font-size: 1.2vw;
 }
 .formItem > textarea{
     margin-left: 5vw;
     margin-top: 1.5vh;
     width: 40vw;
+    font-size: 1.2vw;
+    padding-left: 1vw;
 }
 .formItem>button{
     color: white;
