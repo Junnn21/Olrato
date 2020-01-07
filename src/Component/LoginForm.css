@@ -84,7 +84,7 @@ h2{
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 768px){
     .LoginForm{
         width: 100%;
     }
@@ -104,7 +104,7 @@ h2{
         margin-top: 0vh;
         width: 80%;
         height: 5vh;
-        border: 0.05vw #707070 solid;
+        border: 1px #707070 solid;
         border-radius: 0.5vw;
         padding-left: 2vw;
         font-size: 2.5vw;
@@ -125,7 +125,7 @@ h2{
         height: 6vh;
         color: white;
         background-color: black;
-        border: 0.05vw #707070 solid;
+        border: 1px #707070 solid;
         border-radius: 0.2vw;
         cursor: pointer;
     }
@@ -152,8 +152,8 @@ h2{
         padding-left: 1vw;
     }
     .register>img{
-        width: 6vw;
-        height: 5vh;
+        width: 7vw;
+        height: 6vh;
         border-radius: 50%;
     }
     .signUp{

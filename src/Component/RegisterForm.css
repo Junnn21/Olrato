@@ -49,7 +49,7 @@
         height: 6vh;
         color: white;
         background-color: black;
-        border: 0.05vw #707070 solid;
+        border: 1px #707070 solid;
         border-radius: 0.2vw;
         cursor: pointer;
     }
