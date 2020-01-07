@@ -71,8 +71,8 @@
         border-radius: 0.2vw;
     }
     .plus > img, .chat > img, .profile > img{
-        width: 3.5vw;
-        height: 4vh;
+        width: 4.5vw;
+        height: 3.5vh;
         margin-top: 1.5vh;
         margin-bottom: 1vh;
         margin-left: 1vw;
@@ -90,6 +90,6 @@
         cursor: pointer;
     }
     .Olrato{
-        font-size: 50px;
+        font-size: 6.5vw;
     }
 }

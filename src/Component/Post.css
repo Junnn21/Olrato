@@ -128,18 +128,18 @@
     .profilePic > img{
         border-radius: 50%;
         border: 1px #707070 solid;
-        width: 7vw;
-        height: 8vh;
+        width: 8vw;
+        height: 6vh;
         margin-left: 2vw;
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
     .profileDesc > p{
         font-weight: bold;
-        font-size: 2.5vw;
+        font-size: 3vw;
         margin: 0;
         padding-left: 0.5vw;
-        margin-top: 1.2vh;
+        margin-top: 1vh;
     }
     .postContent{
         width: 100%;
@@ -164,25 +164,25 @@
         margin-top: 0.5vh;
         margin-left: 0.3vw;
         width: 3vw;
-        height: 3vh;
+        height: 2.5vh;
     }
     .calendar > img{
         width: 4vw;
-        height: 4vh;
+        height: 3vh;
     }
     .calendar > p{
         font-size: 2.5vw;
     }
     .location > img{
         width: 4vw;
-        height: 4vh;
+        height: 3vh;
     }
     .location > p{
         font-size: 2.5vw;
     }
     .slot > img{
         width: 4vw;
-        height: 4vh;
+        height: 3vh;
     }
     .slot > p{
         font-size: 2.5vw;

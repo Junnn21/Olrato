@@ -32,3 +32,22 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 768px){
+    .People{
+        margin-left: 0vw;
+        padding-right: 3vw;
+    }
+    .People:first-child{
+        margin-top: 12vh;
+    }
+    .PeopleprofilePic>img{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        border-radius: 50%;
+        border: 1px #707070 solid;
+        width: 5vw;
+        height: 6vh;
+        margin-left: 1vw;
+    }
+}

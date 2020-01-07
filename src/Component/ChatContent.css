@@ -103,3 +103,17 @@
     font-size: 1.2vw;
     padding-left: 1vw;
 }
+
+@media only screen and (max-width: 768px){
+    .chatContent{
+        margin-top: 12vh;
+        margin-right: 0vw;
+        width: 75vw;
+        height: 80vh;
+        background-color: black;
+        border: 1px #707070 solid;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}
