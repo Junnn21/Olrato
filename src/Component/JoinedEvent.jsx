@@ -9,10 +9,10 @@ export default class JoinedEvent extends Component{
                     <p>Joined Event:</p>
                 </div>
                 <div className="event">
-                    <p>Wilsen Zen's Event</p>
+                    <p>Futsal 5 vs 5 Competition</p>
                 </div>
                 <div className="event">
-                    <p>Jun Chandra's Event</p>
+                    <p>Fun Run 10k</p>
                 </div>
             </div>
         )

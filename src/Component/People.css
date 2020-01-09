@@ -33,21 +33,43 @@
     margin-bottom: 0;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     .People{
-        margin-left: 0vw;
-        padding-right: 3vw;
-    }
-    .People:first-child{
-        margin-top: 12vh;
+        margin-left: 0vw
     }
     .PeopleprofilePic>img{
         margin-top: 1vh;
         margin-bottom: 1vh;
         border-radius: 50%;
         border: 1px #707070 solid;
-        width: 5vw;
-        height: 6vh;
+        width: 8vw;
+        height: 12vh;
         margin-left: 1vw;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .People{
+        margin-left: 0vw;
+        padding-right: 3vw;
+    }
+    .People:first-child{
+        margin-top: 15vh;
+        background-color: black;
+        color: white;
+    }
+    .PeopleprofilePic>img{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        border-radius: 50%;
+        border: 1px #707070 solid;
+        width: 8vw;
+        height: 8vh;
+        margin-left: 1vw;
+    }
+    .PeopleDesc > p:first-child{
+        font-weight: bold;
+        margin-top: 0.5vh;
+        margin-bottom: 0;
     }
 }

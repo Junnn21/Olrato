@@ -39,12 +39,16 @@ form>input{
     margin-top: 4vh;
     width: 29vw;
     height: 6.5vh;
-    color: white;
-    background-color: black;
-    border: 0.05vw #707070 solid;
+    color: black;
+    background-color: white;
+    border: 2px black solid;
     border-radius: 0.2vw;
     cursor: pointer;
 }
+.loginBtn:hover{
+    background-color: black;
+    color: white;
+  }
 h2{
     font-family: 'Kristen ITC';
     font-size: 2vw;
@@ -82,6 +86,28 @@ h2{
     font-size: 1.1vw;
     color: #5D00FF;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px){
+    ::placeholder{
+        font-size: 1.4vw;
+    }
+    .register>p{
+        margin: 0;
+        font-size: 1.5vw;
+    }
+    .Forgot{
+        color: #3B2894;
+        font-size: 1.5vw;
+        margin-top: 3vh;
+        padding-bottom: 4.5vh;
+    }
+    .signUp{
+        padding-left: 1vw;
+        font-size: 1.4vw;
+        color: #5D00FF;
+        text-decoration: underline;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -123,9 +149,6 @@ h2{
         margin-top: 4vh;
         width: 40%;
         height: 6vh;
-        color: white;
-        background-color: black;
-        border: 1px #707070 solid;
         border-radius: 0.2vw;
         cursor: pointer;
     }
@@ -159,6 +182,45 @@ h2{
     .signUp{
         padding-left: 1vw;
         font-size: 2.4vw;
+        color: #5D00FF;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    form{
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    form>input{
+        margin-top: 0vh;
+        width: 85%;
+        height: 4vh;
+        font-size: 3vw;
+    }
+    .loginBtn{
+        font-family: sans-serif;
+        font-size: 3vw;
+        margin-top: 4vh;
+        width: 30%;
+        height: 5vh;
+    }
+    .register>img{
+        width: 7.5vw;
+        height: 5vh;
+    }
+    .register>p{
+        margin: 0;
+        font-size: 3vw;
+    }
+    .googleLogin{
+        color: #3B2894;
+        padding-top: 1vh;
+        padding-left: 1vw;
+    }
+    .signUp{
+        padding-left: 1vw;
+        font-size: 2.8vw;
         color: #5D00FF;
         text-decoration: underline;
     }

@@ -12,7 +12,7 @@ class LoginForm extends React.Component{
         e.preventDefault();
         this.props.history.push('/Home');
     }
-
+    
     render(){
         return(
             <div className = "LoginForm">

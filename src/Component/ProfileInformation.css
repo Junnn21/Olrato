@@ -48,11 +48,152 @@
 .profileInfo > button{
     height: 5vh;
     width: 8vw;
-    background-color: black;
-    border: 1px black solid;
-    color: white;
+    background-color: white;
+    border: 2px black solid;
+    color: black;
     cursor: pointer;
     font-size: 1.2vw;
     border-radius: 3px;
     margin-top: 2vh;
+}
+.profileInfo >button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .profileInformation{
+        width: 50vw;
+    }
+    .profilePicImg{
+        margin-left: 2vw;
+    }
+    .profilePicImg > img{
+        border-radius: 50%;
+        border: 1px #707070 solid;
+        width: 16vw;
+        height: 25vh;
+    }
+    .profileName > p{
+        font-size: 2.1vw;
+        font-weight: bold;
+    }
+    .profileInfo{
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+    .profileInfo > p{
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin-top: 2vh;
+    }
+    .profileFollows{
+        display: flex;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+    .profileInfo > button{
+        height: 5vh;
+        width: 10vw;
+        background-color: white;
+        border: 2px black solid;
+        color: black;
+        cursor: pointer;
+        font-size: 1.5vw;
+        border-radius: 3px;
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .profileInformation{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .profilePicImg{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+    }
+    .profilePicImg > img{
+        width: 28vw;
+        height: 30vh;
+    }
+    .profileInfo{
+        margin-left: 2vw;
+        margin-top: 6vh;
+    }
+    .profileFollowing{
+        margin-top: 1vh;
+        margin-left: 3vw;
+    }
+    .profileFollowers{
+        margin-top: 1vh;
+    }
+    .profileName > p{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .profileFollows{
+        display: flex;
+        font-weight: bold;
+        font-size: 2.5vw;
+    }
+    .profileInfo > p{
+        font-size: 2.5vw;
+        font-weight: bold;
+        margin-top: 1vh;
+    }
+    .profileInfo > button{
+        height: 6vh;
+        width: 14vw;
+        font-size: 2vw;
+        border-radius: 3px;
+        margin-top: 1vh;
+        cursor: pointer;
+    }
+
+    .profileInfo >button:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .profileInformation{
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-top: 12vh;
+        border: 0;
+    }
+    .profileInfo{
+        margin-left: 2vw;
+        margin-top: 3.5vh;
+    }
+    .profilePicImg > img{
+        width: 35vw;
+        height: 20vh;
+    }
+    .profileName > p{
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+    .profileFollows{
+        font-size: 3.5vw;
+    }
+    .profileInfo > p{
+        font-size: 3.5vw;
+    }
+    .profileInfo > button{
+        height: 4vh;
+        width: 25vw;
+        font-size: 3.5vw;
+        border-radius: 3px;
+        margin-top: 1vh;
+        cursor: pointer;
+    }
+    .profileInfo >button:hover{
+        background-color: black;
+        color: white;
+    }
 }

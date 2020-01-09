@@ -32,7 +32,7 @@ class Header extends React.Component {
 render(){
     return (
         <div className="Header">
-            <div className="Headerr">
+            <header>
                 <div className="HeaderTitle" onClick={this.home.bind(this)}>
                     <h2 className="Olrato">OLRATO</h2>
                 </div>
@@ -49,7 +49,7 @@ render(){
                     </div>
                     <button onClick={this.logout.bind(this)}>Log Out</button>
                 </div>
-            </div>
+            </header>
             {this.props.children}
         </div>
     )

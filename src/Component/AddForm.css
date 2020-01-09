@@ -38,8 +38,8 @@
     padding-left: 1vw;
 }
 .formItem>button{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     border: 1px solid black;
     border-radius: 0.2vw;
     font-size: 1.5vw;
@@ -49,12 +49,62 @@
     margin-bottom: 5vh;
     cursor: pointer;
 }
+.formItem>button:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px){
+    .addForm{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+    .formItem > p{
+        left: 10vw;
+        font-size: 1.5vw
+    }
+    .formItem > input{
+        margin-left: 5vw;
+        width: 55vw;
+        height: 4vh;
+        margin-top: 1vh;
+        font-size: 1.5vw;
+        padding-left: 1vw;
+    }
+    .formItem > select{
+        margin-left: 5vw;
+        margin-top: 1vh;
+        padding-left: 1vw;
+        height: 4vh;
+        width: 56vw;
+        font-size: 1.5vw;
+    }
+    .formItem > textarea{
+        margin-left: 5vw;
+        margin-top: 1.5vh;
+        width: 55vw;
+        font-size: 1.5vw;
+        padding-left: 1vw;
+    }
+    .formItem>button{
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0.2vw;
+        font-size: 1.5vw;
+        width: 12vw;
+        height: 6vh;
+        margin-top: 3vh;
+        margin-bottom: 5vh;
+        cursor: pointer;
+    }
+}
 
 @media only screen and (max-width: 768px){
     .addForm{
         margin-left: 3vw;
         margin-right: 3vw;
-        margin-top: 12vh;
+        margin-top: 15vh;
     }
     .formItem > p{
         position: absolute;
@@ -64,27 +114,55 @@
         transform: translateY(-50%);
     }
     .formItem > input{
-        margin-left: 5vw;
-        width: 50vw;
-        height: 3vh;
-        margin-top: 0.5vh;
+        margin-left: 10vw;
+        width: 60vw;
+        height: 4vh;
+        margin-top: 0.8vh;
         font-size: 2.5vw;
         padding-left: 1vw;
     }
     .formItem > select{
-        margin-left: 5vw;
-        margin-top: 0.5vh;
+        margin-left: 10vw;
+        margin-top: 1.4vh;
         padding-left: 1vw;
-        height: 3vh;
-        width: 51vw;
+        height: 4vh;
+        width: 61vw;
         font-size: 2.5vw;
     }
     .formItem > textarea{
-        margin-left: 5vw;
+        margin-left: 10vw;
         margin-top: 0.5vh;
-        width: 50vw;
+        width: 60vw;
         font-size: 2.5vw;
         padding-left: 1vw;
+    }
+    .formItem>button{
+        border-radius: 0.8vw;
+        font-size: 2.5vw;
+        width: 20vw;
+        height: 7vh;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .addForm{
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-top: 12vh;
+    }
+    .formItem > input{
+        height: 2.5vh;
+    }
+    .formItem > select{
+        margin-left: 10vw;
+        margin-top: 1vh;
+        padding-left: 1vw;
+        height: 2.5vh;
+        width: 61vw;
+        font-size: 2.5vw;
     }
     .formItem>button{
         border-radius: 0.8vw;

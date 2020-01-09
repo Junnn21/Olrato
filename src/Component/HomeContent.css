@@ -18,15 +18,15 @@
     font-size: 1.5vw;
     margin: 0;
 }
-.filterItem{
+.filterItem, .filterItemlast{
     display: flex;
     border-top: 1px solid #707070;
     padding-right: 14vw;
 }
-.filterItem:last-child{
+.filterItemlast{
     border-bottom: 1px #707070 solid;
 }
-.filterItem > p{
+.filterItem > p, .filterItemlast > p{
     padding-left: 1vw;
     line-height: 28px;
     font-size: 1.5vw;
@@ -34,14 +34,14 @@
     padding-bottom: 1vh;
     margin: 0;
 }
-.filterItem > img{
+.filterItem > img, .filterItemlast > img{
     width: 2.5vw;
     height: 4vh;
     margin-left: 1vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
-.filterItem > input{
+.filterItem > input, .filterItemlast > input{
     margin: 0;
     background-color: #F2F2F2;
     margin-top: 1vh;
@@ -51,6 +51,41 @@
     position: absolute;
     right: 1vw;
 }
+
+@media only screen and (max-width: 1024px){
+    .filterCategory{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px #707070 solid;
+        position: fixed;
+        right: 5vw;
+        margin-top: 18vh;
+    }
+    .filterItem, .filterItemlast{
+        display: flex;
+        border-top: 1px solid #707070;
+        padding-right: 18vw;
+    }
+    .filterItem > img, .filterItemlast > img{
+        width: 2.5vw;
+        height: 3.5vh;
+        margin-left: 1vw;
+        margin-top: 1.2vh;
+        margin-bottom: 1.2vh;
+    }
+    .filterItem > input, .filterItemlast > input{
+        margin: 0;
+        background-color: #F2F2F2;
+        margin-top: 1.5vh;
+        margin-bottom: 1.5vh;
+        width: 3.5vw;
+        height: 3vh;
+        position: absolute;
+        right: 1vw;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .filterCategory{
         display: none;

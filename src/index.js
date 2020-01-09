@@ -13,6 +13,7 @@ import Home from './Home'
 import AddPost from './AddPost'
 import Chat from './Chat';
 import Profile from './Profile'
+import About from './About'
 
 const Routing = (
     <Router>
@@ -34,6 +35,9 @@ const Routing = (
             </Route>
             <Route path = "/Profile">
                 <Profile />
+            </Route>
+            <Route path = "/About">
+                <About />
             </Route>
         </Switch>
     </Router>

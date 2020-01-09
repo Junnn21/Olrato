@@ -1,4 +1,4 @@
-.Headerr{
+header{
     display: flex;
     background-color: white;
     width: 100%;
@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
 }
-.Headerr>input{
+header>input{
     background-color: #F2F2F2;
     margin: 0;
     width: 25vw;
@@ -37,15 +37,19 @@
 .navigation>button{
     width: 7vw;
     height: 6vh;
-    background-color: black;
-    color: white;
-    border: 0.3vw black solid;
+    background-color: white;
+    color: black;
+    border: 2px black solid;
     border-radius: 0.3vw;
     font-size: 1.2vw;
     margin: auto;
     margin-left: 2vw;
     cursor: pointer;
 }
+.navigation>button:hover{
+    background-color: black;
+    color: white;
+  }
 .HeaderTitle{
     cursor: pointer;
 }
@@ -58,13 +62,40 @@
     padding-left: 4vw;
 }
 
+@media only screen and (max-width: 1024px){
+    .plus > img, .chat > img, .profile > img{
+        width: 2.5vw;
+        height: 4vh;
+        margin-top: 1.5vh;
+        margin-bottom: 1vh;
+        margin-left: 1vw;
+    }
+    .navigation>button{
+        width: 9vw;
+        height: 5vh;
+        border-radius: 2px solid black;
+        font-size: 1.4vw;
+    }
+    header>input{
+        background-color: #F2F2F2;
+        margin: 0;
+        width: 25vw;
+        height: 4.5vh;
+        margin: auto;
+        padding-left: 2vw;
+        font-size: 1.5vw;
+        border: 0.05vw #707070 solid;
+        border-radius: 0.2vw;
+    }
+}
+
 @media only screen and (max-width: 768px){
-    .Headerr>input{
+    header>input{
         background-color: #F2F2F2;
         width: 25vw;
         height: 5vh;
-        margin-top: 1.8vh;
-        margin-bottom: 1.8vh;
+        margin-top: 2.8vh;
+        margin-bottom: 2.6vh;
         padding-left: 2vw;
         font-size: 2vw;
         border: 0.1vw #707070 solid;
@@ -72,16 +103,16 @@
     }
     .plus > img, .chat > img, .profile > img{
         width: 4.5vw;
-        height: 3.5vh;
+        height: 4.5vh;
         margin-top: 1.5vh;
         margin-bottom: 1vh;
         margin-left: 1vw;
     }
     .navigation>button{
         width: 12vw;
-        height: 5vh;
-        background-color: black;
-        color: white;
+        height: 6vh;
+        background-color: white;
+        color: black;
         border: 0.3vw black solid;
         border-radius: 0.3vw;
         font-size: 2vw;
@@ -89,7 +120,41 @@
         margin-left: 2vw;
         cursor: pointer;
     }
+
+    .navigation>button:hover{
+        background-color: black;
+        color: white;
+      }
     .Olrato{
-        font-size: 6.5vw;
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    header>input{
+        display: none;
+    }
+    .Olrato{
+        font-size: 9vw;
+    }
+    .plus > img, .profile > img{
+        width: 6vw;
+        height: 3.5vh;
+        margin-left: 2vw;
+    }
+    .chat > img{
+        display: none;
+    }
+    .navigation>button{
+        width: 16vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin: auto;
+        margin-left: 5vw;
+        cursor: pointer;
+    }
+    .navigation>button:hover{
+        background-color: black;
+        color: white;
     }
 }

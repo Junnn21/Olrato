@@ -19,8 +19,28 @@
 }
 .titleEvent > p{
     margin-left: 1vw;
+    font-weight: bold;
 
 }
 .event > p{
     margin-left: 1vw;
+}
+
+@media only screen and (max-width: 1024px){
+    .JoinedEvent{
+        position: fixed;
+        right: 5vw;
+        background-color: white;
+        border: 1px #707070 solid;
+        width: 30vw;
+        margin-top: 5vh;
+        font-size: 1.5vw;
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .JoinedEvent{
+        display: none;
+    }
 }

@@ -36,7 +36,10 @@ export default class Post extends Component {
                         <p>{this.props.post.slot}</p>
                     </div>
                 </div>
-                <button>Join</button>
+
+                <button>
+                    Join
+                </button>
             </div>
         )
     }

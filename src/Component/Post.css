@@ -102,18 +102,117 @@
     font-size: 1.4vw;
     padding-left: 0.7vw;
 }
-.post > button{
+
+.post>button{
     margin-left: 33vw;
     margin-right: 2vw;
     margin-top: 1vh;
     margin-bottom: 3vh;
     height: 7vh;
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 1.4vw;
     cursor: pointer;
+  }
+  
+  button:hover{
+    background-color: black;
+    color: white;
+  }
+
+@media only screen and (max-width: 1024px){
+    .post{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin-left: 5vw;
+        width: 50vw;
+        margin-top: 5vh;
+        border: 1px #707070 solid;
+    }
+    .profilePic > img{
+        border-radius: 50%;
+        border: 1px #707070 solid;
+        width: 6vw;
+        height: 9vh;
+        margin-left: 1vw;
+        margin-top: 0.5vh;
+        margin-bottom: 0.3vh;
+    }
+    .profileDesc{
+        margin-left: 0.5vw;
+    }
+    .profileDesc > p{
+        font-weight: bold;
+        font-size: 1.8vw;
+        margin: 0;
+        padding-left: 0.5vw;
+        margin-top: 1.5vh;
+    }
+    .category > p{
+        margin: 0;
+        font-size: 1.5vw;
+        padding-left: 0.1vw;
+        padding-top: 0.2vh;
+    }
+    .category > img{
+        margin-top: 0.5vh;
+        margin-left: 0.3vw;
+        width: 2.4vw;
+        height: 3vh;
+    }
+    .postContent > img{
+        width: 100%;
+        height: 65vh;
+    }
+    .postContent > p{
+        margin: 0;
+        font-size: 1.5vw;
+        margin-left: 1vw;
+        margin-top: 1vh;
+    }
+    .calendar > img{
+        width: 2.5vw;
+        height: 3.5vh;
+    }
+    .calendar > p{
+        margin: 0;
+        font-size: 1.5vw;
+        padding-left: 0.7vw;
+    }
+    .location > img{
+        width: 2.5vw;
+        height: 3.5vh;
+    }
+    .location > p{
+        margin: 0;
+        font-size: 1.5vw;
+        padding-left: 0.7vw;
+    }
+    .slot > img{
+        width: 2.5vw;
+        height: 3.5vh;
+    }
+    .slot > p{
+        margin: 0px;
+        font-size: 1.5vw;
+        padding-left: 0.7vw;
+    }
+    .post > button{
+        margin-left: 33vw;
+    margin-right: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    height: 7vh;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1.4vw;
+    cursor: pointer;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -123,20 +222,18 @@
         margin-right: 10vw;
     }
     .post:first-child{
-        margin-top: 12vh;
+        margin-top: 15vh;
     }
     .profilePic > img{
-        border-radius: 50%;
-        border: 1px #707070 solid;
-        width: 8vw;
-        height: 6vh;
+        width: 11vw;
+        height: 12vh;
         margin-left: 2vw;
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
     .profileDesc > p{
         font-weight: bold;
-        font-size: 3vw;
+        font-size: 4vw;
         margin: 0;
         padding-left: 0.5vw;
         margin-top: 1vh;
@@ -150,42 +247,42 @@
     }
     .postContent > p{
         margin: 0;
-        font-size: 2.8vw;
+        font-size: 3vw;
         margin-left: 1vw;
         margin-top: 1vh;
     }
     .category > p{
         margin: 0;
-        font-size: 20px;
+        font-size: 3vw;
         padding-left: 0.5vw;
-        padding-top: 0.3vh;
+        padding-top: 0vh;
     }
     .category > img{
         margin-top: 0.5vh;
         margin-left: 0.3vw;
-        width: 3vw;
-        height: 2.5vh;
+        width: 4vw;
+        height: 4vh;
     }
     .calendar > img{
         width: 4vw;
-        height: 3vh;
+        height: 5vh;
     }
     .calendar > p{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .location > img{
         width: 4vw;
-        height: 3vh;
+        height: 5vh;
     }
     .location > p{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .slot > img{
         width: 4vw;
-        height: 3vh;
+        height: 5vh;
     }
     .slot > p{
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     .post > button{
         margin-left: 55vw;
@@ -194,5 +291,91 @@
         margin-bottom: 3vh;
         height: 6vh;
         font-size: 2.5vw;
+        cursor: pointer;
     }
+    button:hover{
+        background-color: black;
+        color: white;
+      }
+}
+
+
+@media only screen and (max-width: 426px){
+    .post{
+        margin-left: 0vw;
+        margin-right: 0vw;
+        width: 100%;
+        border: 0px;
+    }
+    .post:first-child{
+        margin-top: 12vh;
+    }
+    .profilePic > img{
+        width: 12vw;
+        height: 6vh;
+        margin-bottom: 1vh;
+    }
+    .profileDesc{
+        margin-top: 1.2vh;
+    }
+    .profileDesc > p{
+        font-size: 4vw;
+        margin-top: 0vh;
+    }
+    .postContent > img{
+        height: 50vh;
+    }
+    .postContent > p{
+        margin: 0;
+        font-size: 3.5vw;
+        margin-left: 1vw;
+        margin-top: 1vh;
+    }
+    .category > p{
+        margin: 0;
+        font-size: 3.5vw;
+        padding-left: 0.5vw;
+        padding-top: 0.2vh;
+    }
+    .category > img{
+        margin-top: 0.2vh;
+        margin-left: 0.3vw;
+        width: 5vw;
+        height: 2.5vh;
+    }
+    .calendar > img{
+        width: 6vw;
+        height: 3vh;
+    }
+    .calendar > p{
+        font-size: 3.5vw;
+        padding-top: 0.3vh;
+    }
+    .location > img{
+        width: 6vw;
+        height: 3vh;
+    }
+    .location > p{
+        font-size: 3.5vw;
+    }
+    .slot > img{
+        width: 6vw;
+        height: 3vh;
+    }
+    .slot > p{
+        font-size: 3.5vw;
+    }
+    .post > button{
+        margin-left: 55vw;
+        margin-right: 10vw;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        height: 6vh;
+        font-size: 3.5vw;
+        cursor: cursor;
+    }
+    .post>button:hover{
+        background-color: black;
+        color: white;
+      }
 }

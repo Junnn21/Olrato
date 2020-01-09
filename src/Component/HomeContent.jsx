@@ -11,6 +11,7 @@ import tabbleTennisIcon from '../image/tabbleTennisIcon.jpg'
 import volleyIcon from '../image/volleyIcon.png'
 import otherIcon from '../image/otherIcon.png'
 import HomePosts from './HomePosts'
+import Footer from './Footer'
 
 class HomeContent extends Component {
     render() {
@@ -66,11 +67,14 @@ class HomeContent extends Component {
                         <p>Volley</p>
                         <input type="checkbox" name="category"></input>
                     </div>
-                    <div className="filterItem">
+                    <div className="filterItemlast">
                         <img src={otherIcon} alt="" />
                         <p>Others</p>
                         <input type="checkbox" name="category"></input>
                     </div>
+                    <div className="aboutFooter">
+                        <Footer></Footer>    
+                    </div>        
                 </div>
             </div>
         )
